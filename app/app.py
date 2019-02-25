@@ -1,9 +1,6 @@
-from flask import Flask, render_template, redirect, Markup, url_for, jsonify
+from flask import Flask
 from flask_pymongo import PyMongo
-from bson import json_util
-import json
-import re
-from datetime import datetime as dt
+
 
 app = Flask(__name__)
 
